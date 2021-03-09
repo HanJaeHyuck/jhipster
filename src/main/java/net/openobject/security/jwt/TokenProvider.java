@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.Key;
 import java.util.*;
 import java.util.stream.Collectors;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -78,7 +79,7 @@ public class TokenProvider {
 
         Collection<? extends GrantedAuthority> authorities = Arrays
             .stream(claims.get(AUTHORITIES_KEY).toString().split(","))
-            .filter(auth -> !auth.isBlank())
+            .filter(auth -> !StringUtils.isBlank(auth))
             .map(SimpleGrantedAuthority::new)
             .collect(Collectors.toList());
 

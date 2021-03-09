@@ -15,7 +15,7 @@
     "dtoSuffix": "DTO",
     "testFrameworks": [],
     "pages": [],
-    "creationTimestamp": 1615264522257,
+    "creationTimestamp": 1615276105961,
     "promptValues": {
       "packageName": "net.openobject",
       "nativeLanguage": "en"
@@ -43,8 +43,10 @@
     "enableTranslation": false,
     "nativeLanguage": "en",
     "packageFolder": "net/openobject",
-    "jwtSecretKey": "NDVkNzk5Y2U5N2MxOGJmYjFlMTVmM2VjNWZmMjFiMjc4MjNiMmVjZDVmMmQyZjExNzI5ZWRiZTI1NTMxY2JmNDk2ODExNzk4NTc4ODRjOGEyYjA2OGViODE5ZGM4ZjA2YzRiMWZjMThkZWYyMWNmNzJkNTQ0YWFmOWEwODNlZDQ=",
+    "jwtSecretKey": "NTYxYzU2NTZjY2MzODMzZWRmMTdmYWZmNmYwMzBjNTQ3YTA3ZWE1Njg2ZjMzNmRhYTI3YzRjY2MyNjlkN2U2MjA2MjE4NTc3YzM5YWRiZTc2OGUzOTBiODBkYTJhOGI0NmEwZDRiNWNiMTVjNTRkYWExOWE3NmQ5NjQwMjJhZTI=",
     "clientPackageManager": "npm",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "entities": ["Project", "Label", "Ticket", "Attachment", "Comment"],
+    "lastLiquibaseTimestamp": 1615280162000
   }
 }

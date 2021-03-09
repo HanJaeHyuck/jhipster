@@ -39,8 +39,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mariadb://localhost:3306/jh001?useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password:
+    username: jh001
+    password: open1404
     hikari:
       poolName: Hikari
       auto-commit: false

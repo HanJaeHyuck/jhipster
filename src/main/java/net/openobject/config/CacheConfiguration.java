@@ -48,6 +48,15 @@ public class CacheConfiguration {
             createCache(cm, net.openobject.domain.User.class.getName());
             createCache(cm, net.openobject.domain.Authority.class.getName());
             createCache(cm, net.openobject.domain.User.class.getName() + ".authorities");
+            createCache(cm, net.openobject.domain.Project.class.getName());
+            createCache(cm, net.openobject.domain.Label.class.getName());
+            createCache(cm, net.openobject.domain.Label.class.getName() + ".tickets");
+            createCache(cm, net.openobject.domain.Ticket.class.getName());
+            createCache(cm, net.openobject.domain.Ticket.class.getName() + ".attachments");
+            createCache(cm, net.openobject.domain.Ticket.class.getName() + ".labels");
+            createCache(cm, net.openobject.domain.Attachment.class.getName());
+            createCache(cm, net.openobject.domain.Comment.class.getName());
+            createCache(cm, net.openobject.domain.Comment.class.getName() + ".parents");
             // jhipster-needle-ehcache-add-entry
         };
     }
